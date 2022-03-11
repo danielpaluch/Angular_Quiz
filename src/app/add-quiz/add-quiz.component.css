@@ -1,0 +1,8 @@
+@import "../app.component.css";
+.lbl{
+    color: white;
+}
+input{
+    width: 50%;
+    height: 20%;
+}

@@ -1,0 +1,15 @@
+<div class="sec">
+<div class="container" *ngIf="questions.length>i; else winner">
+  <div class="question">
+    {{questions[i].question}}
+  </div>
+  <input [(ngModel)]="answer">
+  <button class="button" (click)="check($event)">Sprawdź!</button>
+</div>
+
+<ng-template #winner>
+  <app-winner></app-winner>
+</ng-template>
+
+<app-add-quiz></app-add-quiz>
+</div>
