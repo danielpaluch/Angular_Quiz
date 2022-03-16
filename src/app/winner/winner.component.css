@@ -1,1 +1,10 @@
 @import "../app.component.css";
+.question{
+    text-align: center;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.container{
+    width: 400px;
+    height: 400px;
+}

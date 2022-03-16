@@ -3,9 +3,24 @@
     font-family: "Verdana";
     font-size:x-large;
 }
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.navbar button{
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    width: 20%;
+}
+.navbar button:hover {
+    background-color: #FF4F2C; 
+    color: white;
+  }
 .sec{
     width: 100%;
     display: flex;
+    justify-content: center;
 }
 .container{
     display: flex;
@@ -16,6 +31,9 @@
     justify-content: center;
     border-radius: 10px;
     margin: 20px;
+}
+.container input{
+    width: 100%
 }
 .question{
     margin-top: 2%;
